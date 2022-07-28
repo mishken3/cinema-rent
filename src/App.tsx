@@ -1,16 +1,12 @@
 import 'normalize.css';
-import './App.css';
+import './App.module.scss';
 
-import React from 'react';
-
-import { AdressBar } from './Components';
+import { MainPage } from './pages/';
 
 function App() {
   return (
     <div>
-      <AdressBar />
-      <p>App.tsx</p>
-      <p>Cinema rent website</p>
+      <MainPage />
     </div>
   );
 }

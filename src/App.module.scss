@@ -18,6 +18,10 @@
 }
 
 body {
+  /* TODO сделать 100% высоту
+  max-height: 95%;
+  */
+
   margin: 0;
 
   font-family: 'TT Travels';
@@ -28,4 +32,12 @@ body {
 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+p {
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
 }

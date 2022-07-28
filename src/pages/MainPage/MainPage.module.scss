@@ -1,0 +1,68 @@
+.mainpage {
+  display: flex;
+  flex-direction: column;
+}
+
+.body {
+  /* TODO REMOVE AND CHANGE TO FLEX -> GAP */
+  padding: 115px 0;
+
+  background-image: url('../../assets/icons/camera-bg.png');
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+  }
+
+  &__logo {
+    max-width: 220px;
+    max-height: 220px;
+  }
+
+  &__title {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+    color: #fff;
+
+    &_tagline {
+      font-size: 52px;
+      font-weight: 600;
+      line-height: 62px;
+      letter-spacing: 0.02em;
+    }
+
+    &_info {
+      font-size: 26px;
+      line-height: 31px;
+    }
+
+    &_btn {
+      padding: 20px 32px;
+      border-radius: 8px;
+
+      background-color: transparent;
+      color: #fff;
+      border: 1px solid #eeeeee;
+
+      cursor: pointer;
+    }
+  }
+
+  &__partners {
+    padding: 40px 120px 170px;
+    margin: 0;
+
+    display: flex;
+    justify-content: space-between;
+
+    background-color: #020206;
+  }
+}

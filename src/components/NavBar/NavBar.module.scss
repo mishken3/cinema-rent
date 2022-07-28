@@ -1,0 +1,24 @@
+.navbar {
+  padding: 0 40px;
+  height: 80px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  font-weight: 700;
+  color: #fff;
+  background-color: #020206;
+
+  border-bottom: 1px solid #ffffff4d;
+
+  & nav > ul {
+    display: flex;
+    gap: 80px;
+  }
+
+  &__icons {
+    display: flex;
+    gap: 40px;
+  }
+}

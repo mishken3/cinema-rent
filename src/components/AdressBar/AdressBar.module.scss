@@ -1,0 +1,15 @@
+.adressbar {
+  max-height: 40px;
+
+  padding: 8px 40px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  color: #020206;
+
+  & > p {
+    font-weight: 600;
+  }
+}

@@ -1,3 +1,7 @@
+/* TODO
+Move fonts to own file
+*/
+
 @font-face {
   font-family: 'TT Travels';
   src: local('TT Travels-Regular'), url('./assets/fonts/TT\ Travels-Regular.otf') format('opentype');
@@ -17,11 +21,14 @@
   font-weight: 700;
 }
 
-body {
-  /* TODO сделать 100% высоту
-  max-height: 95%;
-  */
+html,
+body,
+#root,
+#root > div {
+  height: 100%;
+}
 
+body {
   margin: 0;
 
   font-family: 'TT Travels';
@@ -32,6 +39,8 @@ body {
 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  background-color: #020206;
 }
 
 p {
@@ -40,4 +49,5 @@ p {
 
 ul {
   list-style-type: none;
+  padding: 0;
 }

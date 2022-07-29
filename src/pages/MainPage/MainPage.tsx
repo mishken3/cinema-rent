@@ -7,24 +7,24 @@ import styles from './MainPage.module.scss';
 export const MainPage = () => {
   return (
     <div className={styles.mainpage}>
-      <div className={styles.navs}>
+      <header className={styles.header}>
         <AdressBar />
         <NavBar />
-      </div>
+      </header>
 
-      <div className={styles.body}>
-        <div className={styles.body__content}>
-          <img className={styles.body__logo} src={mainLogo} alt="2.39 logo" />
-          <section className={styles.body__title}>
-            <p className={styles.body__title_tagline}>Фокус. Камера. Мотор</p>
-            <p className={styles.body__title_info}>Аренда профессиональной видео-техники</p>
+      <main className={styles.main}>
+        <div className={styles.main__content}>
+          <img className={styles.main__logo} src={mainLogo} alt="2.39 logo" />
+          <section className={styles.main__title}>
+            <p className={styles.main__title_tagline}>Фокус. Камера. Мотор</p>
+            <p className={styles.main__title_info}>Аренда профессиональной видео-техники</p>
           </section>
-          <button className={styles.body__title_btn}>Посмотреть каталог</button>
+          <button className={styles.main__title_btn}>Посмотреть каталог</button>
         </div>
-      </div>
+      </main>
 
-      <footer>
-        <ul className={styles.body__partners}>
+      <footer className={styles.footer}>
+        <ul className={styles.footer__partners}>
           <li>
             <img src={partnersImg.tnt} alt="2.39 small logo" />
           </li>

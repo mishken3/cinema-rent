@@ -1,5 +1,5 @@
 import 'normalize.css';
-import './App.module.scss';
+import './App.scss';
 
 import { MainPage } from './pages/';
 

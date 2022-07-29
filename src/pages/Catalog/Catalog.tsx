@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { PageNavBar } from '../../components';
+import { CatalogItem, PageNavBar } from '../../components';
 import styles from './Catalog.module.scss';
 
 export const Catalog = () => {
@@ -9,15 +9,14 @@ export const Catalog = () => {
       <PageNavBar pageName="Каталог" />
 
       <div className={styles.catalog__content}>
-        <div>TestDiv</div>
-        <div>TestDiv</div>
-        <div>TestDiv</div>
-        <div>TestDiv</div>
-
-        <div>TestDiv</div>
-        <div>TestDiv</div>
-        <div>TestDiv</div>
-        <div>TestDiv</div>
+        <CatalogItem itemName="Видеокамеры" />
+        <CatalogItem itemName="Видеосвет" />
+        <CatalogItem itemName="Грип" />
+        <CatalogItem itemName="Штативы" />
+        <CatalogItem itemName="Аудио" />
+        <CatalogItem itemName="Микрофоны" />
+        <CatalogItem itemName="Спецэффекты" />
+        <CatalogItem itemName="Аксессуары" />
       </div>
     </div>
   );

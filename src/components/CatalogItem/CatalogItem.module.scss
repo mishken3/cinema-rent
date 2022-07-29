@@ -1,0 +1,32 @@
+.card {
+  width: 320px;
+  height: 400px;
+  padding: 20px;
+
+  display: flex;
+  flex-direction: column;
+
+  background-color: #020206;
+  border-radius: 8px;
+  color: #fff;
+
+  &__image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    height: 100%;
+
+    & > img {
+      max-width: 304px;
+      max-height: 318px;
+    }
+  }
+
+  &__name {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34px;
+    text-align: left;
+  }
+}

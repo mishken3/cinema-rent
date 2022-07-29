@@ -1,0 +1,22 @@
+.catalog {
+  height: min-content;
+
+  background-color: #fafafa;
+
+  &__content {
+    padding: 40px 80px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.3rem;
+
+    /* TODO REMOVE, FOR LAYOUT */
+    & > div {
+      height: 400px;
+      width: 320px;
+      background-color: #020206;
+      color: #fff;
+    }
+  }
+}

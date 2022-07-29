@@ -1,12 +1,14 @@
 import 'normalize.css';
 import './App.scss';
 
-import { MainPage } from './pages/';
+import { Catalog } from './pages';
+// import { MainPage } from './pages/';
 
 function App() {
   return (
     <div>
-      <MainPage />
+      {/* <MainPage /> */}
+      <Catalog />
     </div>
   );
 }

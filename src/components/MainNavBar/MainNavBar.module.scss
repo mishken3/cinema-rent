@@ -1,3 +1,20 @@
+.adressbar {
+  max-height: 40px;
+
+  padding: 8px 40px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  color: #020206;
+  background-color: #fff;
+
+  & > p {
+    font-weight: 600;
+  }
+}
+
 .navbar {
   padding: 0 40px;
   height: 80px;

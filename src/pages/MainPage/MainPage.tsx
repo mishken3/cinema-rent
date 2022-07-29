@@ -1,15 +1,14 @@
 import React from 'react';
 
 import { mainLogo, partnersImg } from '../../assets/icons';
-import { AdressBar, NavBar } from '../../components';
+import { MainNavBar } from '../../components';
 import styles from './MainPage.module.scss';
 
 export const MainPage = () => {
   return (
     <div className={styles.mainpage}>
       <header className={styles.header}>
-        <AdressBar />
-        <NavBar />
+        <MainNavBar />
       </header>
 
       <main className={styles.main}>

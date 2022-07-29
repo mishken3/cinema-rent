@@ -1,12 +1,12 @@
 import React from 'react';
 
-import { basket, logo, loupe } from '../../assets/icons/nav';
+import { navImg } from '../../assets/icons';
 import styles from './NavBar.module.scss';
 
 export const NavBar = () => {
   return (
     <div className={styles.navbar}>
-      <img className={styles.navbar__logo} src={logo} alt="2.39 small logo" />
+      <img className={styles.navbar__logo} src={navImg.logo} alt="2.39 small logo" />
 
       <nav className={styles.navbar__nav}>
         <ul>
@@ -19,8 +19,8 @@ export const NavBar = () => {
       </nav>
 
       <div className={styles.navbar__icons}>
-        <img src={basket} alt="Basket icon" />
-        <img src={loupe} alt="Finder loupe icon" />
+        <img src={navImg.basket} alt="Basket icon" />
+        <img src={navImg.loupe} alt="Finder loupe icon" />
       </div>
     </div>
   );

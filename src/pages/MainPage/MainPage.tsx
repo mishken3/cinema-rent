@@ -1,7 +1,6 @@
 import React from 'react';
 
-import { mainLogo } from '../../assets/icons';
-import { ctc, ivi, kinopoisk, tnt, vk } from '../../assets/icons/partners';
+import { mainLogo, partnersImg } from '../../assets/icons';
 import { AdressBar, NavBar } from '../../components';
 import styles from './MainPage.module.scss';
 
@@ -27,19 +26,19 @@ export const MainPage = () => {
       <footer>
         <ul className={styles.body__partners}>
           <li>
-            <img src={tnt} alt="2.39 small logo" />
+            <img src={partnersImg.tnt} alt="2.39 small logo" />
           </li>
           <li>
-            <img src={kinopoisk} alt="2.39 small logo" />{' '}
+            <img src={partnersImg.kinopoisk} alt="2.39 small logo" />{' '}
           </li>
           <li>
-            <img src={ivi} alt="2.39 small logo" />{' '}
+            <img src={partnersImg.ivi} alt="2.39 small logo" />{' '}
           </li>
           <li>
-            <img src={vk} alt="2.39 small logo" />{' '}
+            <img src={partnersImg.vk} alt="2.39 small logo" />{' '}
           </li>
           <li>
-            <img src={ctc} alt="2.39 small logo" />{' '}
+            <img src={partnersImg.ctc} alt="2.39 small logo" />{' '}
           </li>
         </ul>
       </footer>

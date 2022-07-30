@@ -1,30 +1,32 @@
 /* TODO:
-1. Position content block in the middle
+1. REFACTOR Position content block in the middle
 2. Set-up bg-image: shadow, reesizing and etc */
 
 .autorent {
   height: 100%;
 
-  display: flex;
-  flex-direction: column;
-
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url(../../assets/icons/transfer-bg.png);
-
-  // background-image: url(../../assets/icons/transfer-bg.png);
+  background-image: url(../../assets/icons/transfer-bg.png);
   background-position: right;
   background-repeat: no-repeat;
   background-size: contain;
+
+  &__header {
+    max-height: 20%;
+  }
+
+  &__body {
+    height: 80%;
+
+    display: flex;
+    align-items: center;
+  }
 }
 
 .content {
-  // margin-top: 15%;
-
   width: 600px;
 
   display: flex;
   flex-direction: column;
-  justify-content: center;
   gap: 64px;
 
   padding-left: 40px;

@@ -12,6 +12,8 @@
 
   &__header {
     max-height: 20%;
+
+    display: block;
   }
 
   &__body {
@@ -24,12 +26,11 @@
 
 .content {
   width: 600px;
-
-  display: flex;
-  flex-direction: column;
-  gap: 64px;
-
   padding-left: 40px;
 
   font-weight: 600;
+
+  & > p {
+    padding-bottom: 64px;
+  }
 }

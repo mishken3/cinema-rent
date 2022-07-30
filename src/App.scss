@@ -1,25 +1,4 @@
-/* TODO
-Move fonts to own file
-*/
-
-@font-face {
-  font-family: 'TT Travels';
-  src: local('TT Travels-Regular'), url('./assets/fonts/TT\ Travels-Regular.otf') format('opentype');
-  font-weight: 400;
-}
-
-@font-face {
-  font-family: 'TT Travels';
-  src: local('TT Travels-DemiBold'),
-    url('./assets/fonts/TT\ Travels-DemiBold.otf') format('opentype');
-  font-weight: 600;
-}
-
-@font-face {
-  font-family: 'TT Travels';
-  src: local('TT Travels-Bold'), url('./assets/fonts/TT\ Travels-Bold.otf') format('opentype');
-  font-weight: 700;
-}
+@import './assets/fonts/fonts.scss';
 
 html,
 body,

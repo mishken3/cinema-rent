@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { mainLogo, partnersImg } from '../../assets/icons';
-import { MainNavBar } from '../../components';
+import { ButtonComp, MainNavBar } from '../../components';
 import styles from './MainPage.module.scss';
 
 export const MainPage = () => {
@@ -18,7 +18,8 @@ export const MainPage = () => {
             <p className={styles.main__title_tagline}>Фокус. Камера. Мотор</p>
             <p className={styles.main__title_info}>Аренда профессиональной видео-техники</p>
           </section>
-          <button className={styles.main__title_btn}>Посмотреть каталог</button>
+
+          <ButtonComp text="Арендовать транспорт" />
         </div>
       </main>
 

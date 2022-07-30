@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { PageNavBar } from '../../components';
+import { ButtonComp, PageNavBar } from '../../components';
 import styles from './AutoRent.module.scss';
 
 export const AutoRent = () => {
@@ -18,7 +18,7 @@ export const AutoRent = () => {
             и сохранности. В таком фургоне можно не только безопасно перевозить кинокамеры, но и
             осуществлять необходимое техническое обслуживание.
           </p>
-          <button>Арендовать транспорт</button>
+          <ButtonComp text="Арендовать транспорт" size="big" />
         </div>
       </div>
     </div>

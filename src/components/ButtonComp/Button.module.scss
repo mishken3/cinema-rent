@@ -1,0 +1,15 @@
+.button {
+  padding: 20px 32px;
+
+  color: #fff;
+
+  border-radius: 8px;
+  background-color: transparent;
+  border: 1px solid #eeeeee;
+
+  cursor: pointer;
+
+  &__big {
+    padding: 20px 178px;
+  }
+}

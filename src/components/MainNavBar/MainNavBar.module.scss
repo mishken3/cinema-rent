@@ -29,9 +29,20 @@
 
   border-bottom: 1px solid #ffffff4d;
 
+  &__logo_btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+
   & nav > ul {
     display: flex;
     gap: 80px;
+
+    & a {
+      color: inherit;
+      text-decoration: none;
+    }
   }
 
   &__icons {

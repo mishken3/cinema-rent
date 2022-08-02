@@ -4,6 +4,8 @@ import { navImg } from '../../assets/icons';
 import styles from './MainNavBar.module.scss';
 
 export const MainNavBar = () => {
+  const mainPageURL = window.location.origin;
+
   return (
     <>
       <div className={styles.adressbar}>
@@ -12,15 +14,27 @@ export const MainNavBar = () => {
       </div>
 
       <div className={styles.navbar}>
-        <img className={styles.navbar__logo} src={navImg.logo} alt="2.39 small logo" />
+        <a className={styles.navbar__logo_btn} href={mainPageURL}>
+          <img className={styles.navbar__logo_img} src={navImg.logo} alt="2.39 small logo" />
+        </a>
 
         <nav className={styles.navbar__nav}>
           <ul>
-            <li>Камеры</li>
-            <li>Оптика</li>
-            <li>Аксессуары</li>
-            <li>Транспортировка</li>
-            <li>Контакты</li>
+            <li>
+              <a href="#catalog">Камеры</a>
+            </li>
+            <li>
+              <a href="#catalog">Оптика</a>
+            </li>
+            <li>
+              <a href="#catalog">Аксессуары</a>
+            </li>
+            <li>
+              <a href="#auto-rent">Транспортировка</a>
+            </li>
+            <li>
+              <a href={mainPageURL}>Контакты</a>
+            </li>
           </ul>
         </nav>
 

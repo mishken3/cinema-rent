@@ -1,5 +1,9 @@
 @import './assets/fonts/fonts.scss';
 
+html {
+  scroll-behavior: smooth;
+}
+
 html,
 body,
 #root,

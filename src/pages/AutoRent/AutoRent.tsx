@@ -5,7 +5,7 @@ import styles from './AutoRent.module.scss';
 
 export const AutoRent = () => {
   return (
-    <div className={styles.autorent}>
+    <div className={styles.autorent} id="auto-rent">
       <header className={styles.autorent__header}>
         <PageNavBar pageName="Аренда транспорта" />
       </header>

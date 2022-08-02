@@ -17,9 +17,27 @@
     align-self: center;
     height: 100%;
 
+    position: relative;
+
     & > img {
       max-width: 304px;
       max-height: 318px;
+
+      border-radius: 8px;
+
+      transition: opacity 0.4s;
+    }
+
+    &_bw {
+      position: static;
+
+      opacity: 1;
+    }
+
+    &_main {
+      position: absolute;
+
+      opacity: 0;
     }
   }
 
@@ -28,5 +46,15 @@
     font-weight: 700;
     line-height: 34px;
     text-align: left;
+  }
+
+  &:hover {
+    .card__image_bw {
+      opacity: 0;
+    }
+
+    .card__image_main {
+      opacity: 1;
+    }
   }
 }

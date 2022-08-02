@@ -1,5 +1,6 @@
 import React from 'react';
 
+import { camera } from '../../assets/cards';
 import { CatalogItem, PageNavBar } from '../../components';
 import styles from './Catalog.module.scss';
 
@@ -11,7 +12,7 @@ export const Catalog = () => {
       </div>
 
       <div className={styles.catalog__content}>
-        <CatalogItem itemName="Видеокамеры" />
+        <CatalogItem itemName="Видеокамеры" img={camera} />
         <CatalogItem itemName="Видеосвет" />
         <CatalogItem itemName="Грип" />
         <CatalogItem itemName="Штативы" />

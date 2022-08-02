@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { camera } from '../../assets/cards';
+import * as CardImg from '../../assets/cards';
 import { CatalogItem, PageNavBar } from '../../components';
 import styles from './Catalog.module.scss';
 
@@ -12,14 +12,14 @@ export const Catalog = () => {
       </div>
 
       <div className={styles.catalog__content}>
-        <CatalogItem itemName="Видеокамеры" img={camera} />
-        <CatalogItem itemName="Видеосвет" />
-        <CatalogItem itemName="Грип" />
-        <CatalogItem itemName="Штативы" />
-        <CatalogItem itemName="Аудио" />
-        <CatalogItem itemName="Микрофоны" />
-        <CatalogItem itemName="Спецэффекты" />
-        <CatalogItem itemName="Аксессуары" />
+        <CatalogItem itemName="Видеокамеры" img={CardImg.camera} imgBW={CardImg.cameraBW} />
+        <CatalogItem itemName="Видеосвет" img={CardImg.light} imgBW={CardImg.lightBW} />
+        <CatalogItem itemName="Грип" img={CardImg.grip} imgBW={CardImg.gripBW} />
+        <CatalogItem itemName="Штативы" img={CardImg.grip} imgBW={CardImg.gripBW} />
+        <CatalogItem itemName="Аудио" img={CardImg.sound} imgBW={CardImg.soundBW} />
+        <CatalogItem itemName="Микрофоны" img={CardImg.sound} imgBW={CardImg.soundBW} />
+        <CatalogItem itemName="Спецэффекты" img={CardImg.sfx} imgBW={CardImg.sfxBW} />
+        <CatalogItem itemName="Аксессуары" img={CardImg.location} imgBW={CardImg.locationBW} />
       </div>
     </div>
   );

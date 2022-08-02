@@ -1,0 +1,12 @@
+export { default as camera } from './camera.jpg';
+export { default as cameraBW } from './camera_bw.jpg';
+export { default as grip } from './grip.jpg';
+export { default as gripBW } from './grip_bw.jpg';
+export { default as light } from './light.jpg';
+export { default as lightBW } from './light_bw.jpg';
+export { default as location } from './location.jpg';
+export { default as locationBW } from './location_bw.jpg';
+export { default as sfx } from './sfx.jpg';
+export { default as sfxBW } from './sfx_bw.jpg';
+export { default as sound } from './sound.jpg';
+export { default as soundBW } from './sound_bw.jpg';

@@ -33,7 +33,7 @@ export const MainNavBar = () => {
               <a href="#auto-rent">Транспортировка</a>
             </li>
             <li>
-              <a href={mainPageURL}>Контакты</a>
+              <a href="#footer">Контакты</a>
             </li>
           </ul>
         </nav>

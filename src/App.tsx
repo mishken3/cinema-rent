@@ -9,6 +9,7 @@ function App() {
       <MainPage />
       <Catalog />
       <AutoRent />
+      <div id="footer"></div>
     </div>
   );
 }

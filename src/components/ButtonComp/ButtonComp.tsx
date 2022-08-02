@@ -6,10 +6,15 @@ import styles from './Button.module.scss';
 interface ButtonProps {
   text: string;
   size?: 'small' | 'big';
+  link?: string;
 }
 
-export const ButtonComp: FC<ButtonProps> = ({ text, size = 'small' }) => {
+export const ButtonComp: FC<ButtonProps> = ({ text, size = 'small', link = '#' }) => {
   const isBigButton = size === 'big';
 
-  return <button className={cn(styles.button, isBigButton && styles.button__big)}>{text}</button>;
+  return (
+    <a className={cn(styles.button, isBigButton && styles.button__big)} href={link}>
+      {text}
+    </a>
+  );
 };

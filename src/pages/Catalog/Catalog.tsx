@@ -6,7 +6,9 @@ import styles from './Catalog.module.scss';
 export const Catalog = () => {
   return (
     <div className={styles.catalog}>
-      <PageNavBar pageName="Каталог" />
+      <div className={styles.catalog__header}>
+        <PageNavBar pageName="Каталог" />
+      </div>
 
       <div className={styles.catalog__content}>
         <CatalogItem itemName="Видеокамеры" />

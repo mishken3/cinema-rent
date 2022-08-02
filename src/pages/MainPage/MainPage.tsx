@@ -19,7 +19,7 @@ export const MainPage = () => {
             <p className={styles.main__title_info}>Аренда профессиональной видео-техники</p>
           </section>
 
-          <ButtonComp text="Арендовать транспорт" />
+          <ButtonComp text="Посмотреть каталог" />
         </div>
       </main>
 

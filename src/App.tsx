@@ -1,16 +1,13 @@
 import 'normalize.css';
 import './App.scss';
 
-import { AutoRent } from './pages';
-
-// import { Catalog } from './pages';
-// import { MainPage } from './pages/';
+import { AutoRent, Catalog, MainPage } from './pages';
 
 function App() {
   return (
     <div>
-      {/* <MainPage /> */}
-      {/* <Catalog /> */}
+      <MainPage />
+      <Catalog />
       <AutoRent />
     </div>
   );

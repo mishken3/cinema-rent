@@ -27,7 +27,8 @@
   font-weight: 700;
   color: #fff;
 
-  border-bottom: 1px solid #ffffff4d;
+  border: 5px solid rgba(255, 255, 255, 0.3);
+  border-image: url(../../assets/icons/nav-border-top.svg) 100;
 
   &__logo_btn {
     background-color: transparent;

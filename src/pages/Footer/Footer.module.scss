@@ -1,0 +1,42 @@
+.footer {
+  height: 30%;
+  width: 100%;
+  box-sizing: border-box;
+
+  padding: 50px;
+
+  font-weight: 500;
+}
+
+.content {
+  height: 100%;
+  width: 100%;
+
+  display: flex;
+  justify-content: space-evenly;
+  gap: 2.5rem;
+
+  & > div {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  & img {
+    width: 36px;
+    height: 36px;
+  }
+
+  &__logo img {
+    width: 180px;
+    height: 180px;
+  }
+
+  &__info div,
+  &__contacts_phone,
+  &__socials_links {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+}

@@ -1,0 +1,44 @@
+.wrapper {
+  height: 100%;
+
+  background: url(../../assets/BG/transfer-bg.png) right center no-repeat rgba(0, 0, 0, 0.7);
+
+  background-size: auto 100%;
+}
+
+.autorent {
+  height: 100%;
+
+  background: linear-gradient(
+    110deg,
+    black 37%,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0),
+    transparent
+  );
+
+  &__header {
+    max-height: 20%;
+
+    display: block;
+  }
+
+  &__body {
+    height: 80%;
+
+    display: flex;
+    align-items: center;
+  }
+}
+
+.content {
+  width: 40%;
+  padding-left: 40px;
+
+  font-weight: 600;
+
+  & > p {
+    padding-bottom: 64px;
+  }
+}

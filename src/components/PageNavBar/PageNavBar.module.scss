@@ -1,0 +1,21 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  padding: 35px 40px;
+
+  border: 5px solid rgba(255, 255, 255, 0.3);
+  border-image: url(../../assets/nav-border-top.svg) 100;
+
+  &__page {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+  }
+
+  &__title {
+    font-size: 20px;
+    font-weight: 600;
+  }
+}

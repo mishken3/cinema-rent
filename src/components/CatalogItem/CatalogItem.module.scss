@@ -1,0 +1,65 @@
+.card {
+  width: 320px;
+  height: 400px;
+  padding: 20px;
+
+  display: flex;
+  flex-direction: column;
+
+  background-color: #020206;
+  border-radius: 8px;
+  color: #fff;
+
+  &__image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    height: 100%;
+
+    position: relative;
+
+    & > img {
+      max-width: 304px;
+      max-height: 318px;
+
+      border-radius: 8px;
+
+      transition: opacity 0.4s;
+    }
+
+    &_bw {
+      position: static;
+
+      opacity: 1;
+    }
+
+    &_main {
+      position: absolute;
+
+      opacity: 0;
+    }
+  }
+
+  &__name {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34px;
+    text-align: left;
+  }
+
+  &:hover {
+    .card__image_bw {
+      opacity: 0;
+    }
+
+    .card__image_main {
+      opacity: 1;
+    }
+
+    transition: 0.4s ease-in-out;
+    cursor: pointer;
+    background-color: #fff;
+    color: black;
+  }
+}

@@ -1,0 +1,10 @@
+export { default as basket } from './basket.svg';
+export { default as logoBig } from './big-logo.svg';
+export { default as fb } from './fb.svg';
+export { default as gps } from './gps.svg';
+export { default as ig } from './ig.svg';
+export { default as loupe } from './loupe.svg';
+export { default as mail } from './mail.svg';
+export { default as open } from './open.svg';
+export { default as phone } from './phone.svg';
+export { default as logoSmall } from './small-logo.svg';

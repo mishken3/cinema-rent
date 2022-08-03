@@ -1,6 +1,7 @@
 import React from 'react';
 
-import { mainLogo, partnersImg } from '../../assets/icons';
+import { logoBig } from '../../assets';
+import * as PartnersImg from '../../assets/partners';
 import { ButtonComp, MainNavBar } from '../../components';
 import styles from './MainPage.module.scss';
 
@@ -13,7 +14,7 @@ export const MainPage = () => {
 
       <main className={styles.main}>
         <div className={styles.main__content}>
-          <img className={styles.main__logo} src={mainLogo} alt="2.39 logo" />
+          <img className={styles.main__logo} src={logoBig} alt="2.39 logo" />
           <section className={styles.main__title}>
             <p className={styles.main__title_tagline}>Фокус. Камера. Мотор</p>
             <p className={styles.main__title_info}>Аренда профессиональной видео-техники</p>
@@ -26,19 +27,19 @@ export const MainPage = () => {
       <footer className={styles.footer}>
         <ul className={styles.footer__partners}>
           <li>
-            <img src={partnersImg.tnt} alt="2.39 small logo" />
+            <img src={PartnersImg.tnt} alt="2.39 small logo" />
           </li>
           <li>
-            <img src={partnersImg.kinopoisk} alt="2.39 small logo" />{' '}
+            <img src={PartnersImg.kinopoisk} alt="2.39 small logo" />{' '}
           </li>
           <li>
-            <img src={partnersImg.ivi} alt="2.39 small logo" />{' '}
+            <img src={PartnersImg.ivi} alt="2.39 small logo" />{' '}
           </li>
           <li>
-            <img src={partnersImg.vk} alt="2.39 small logo" />{' '}
+            <img src={PartnersImg.vk} alt="2.39 small logo" />{' '}
           </li>
           <li>
-            <img src={partnersImg.ctc} alt="2.39 small logo" />{' '}
+            <img src={PartnersImg.ctc} alt="2.39 small logo" />{' '}
           </li>
         </ul>
       </footer>

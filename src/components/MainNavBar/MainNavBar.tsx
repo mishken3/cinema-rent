@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { navImg } from '../../assets/icons';
+import { basket, logoSmall, loupe } from '../../assets/icons';
 import styles from './MainNavBar.module.scss';
 
 export const MainNavBar = () => {
@@ -15,7 +15,7 @@ export const MainNavBar = () => {
 
       <div className={styles.navbar}>
         <a className={styles.navbar__logo_btn} href={mainPageURL}>
-          <img className={styles.navbar__logo_img} src={navImg.logo} alt="2.39 small logo" />
+          <img className={styles.navbar__logo_img} src={logoSmall} alt="2.39 small logo" />
         </a>
 
         <nav className={styles.navbar__nav}>
@@ -39,8 +39,8 @@ export const MainNavBar = () => {
         </nav>
 
         <div className={styles.navbar__icons}>
-          <img src={navImg.basket} alt="Basket icon" />
-          <img src={navImg.loupe} alt="Finder loupe icon" />
+          <img src={basket} alt="Basket icon" />
+          <img src={loupe} alt="Finder loupe icon" />
         </div>
       </div>
     </>

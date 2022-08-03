@@ -1,6 +1,7 @@
 import React from 'react';
 
 import { basket, logoSmall, loupe } from '../../assets/icons';
+import { PersonalInfo } from '../../data';
 import styles from './MainNavBar.module.scss';
 
 export const MainNavBar = () => {
@@ -9,8 +10,8 @@ export const MainNavBar = () => {
   return (
     <>
       <div className={styles.adressbar}>
-        <p className={styles.adressbar__adress}>Москва, 2-ая Юго-Западная, дом 7</p>
-        <p className={styles.adressbar__number}>+7 (495) 211-13-00</p>
+        <p className={styles.adressbar__adress}>{PersonalInfo.address}</p>
+        <p className={styles.adressbar__number}>{PersonalInfo.phone}</p>
       </div>
 
       <div className={styles.navbar}>

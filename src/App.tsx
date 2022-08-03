@@ -1,7 +1,7 @@
 import 'normalize.css';
 import './App.scss';
 
-import { AutoRent, Catalog, MainPage } from './pages';
+import { AutoRent, Catalog, Footer, MainPage } from './pages';
 
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
       <MainPage />
       <Catalog />
       <AutoRent />
-      <div id="footer"></div>
+      <Footer />
     </div>
   );
 }

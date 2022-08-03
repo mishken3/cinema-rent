@@ -1,0 +1,19 @@
+.footer {
+  height: 100%;
+  box-sizing: border-box;
+
+  padding: 120px;
+
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+
+  &__content {
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}

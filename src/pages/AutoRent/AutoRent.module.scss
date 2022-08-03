@@ -1,14 +1,22 @@
-/* TODO:
-1. REFACTOR Position content block in the middle
-2. Set-up bg-image: shadow, reesizing and etc */
+.wrapper {
+  height: 100%;
+
+  background: url(../../assets/icons/transfer-bg.png) right center no-repeat rgba(0, 0, 0, 0.7);
+
+  background-size: auto 100%;
+}
 
 .autorent {
   height: 100%;
 
-  background-image: url(../../assets/icons/transfer-bg.png);
-  background-position: right;
-  background-repeat: no-repeat;
-  background-size: contain;
+  background: linear-gradient(
+    110deg,
+    black 37%,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0),
+    transparent
+  );
 
   &__header {
     max-height: 20%;
@@ -25,7 +33,7 @@
 }
 
 .content {
-  width: 600px;
+  width: 40%;
   padding-left: 40px;
 
   font-weight: 600;

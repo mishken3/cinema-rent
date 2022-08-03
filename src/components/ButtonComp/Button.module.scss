@@ -17,4 +17,11 @@
   &__big {
     width: 100%;
   }
+
+  &:hover {
+    background-color: #fff;
+    color: black;
+  }
+
+  transition: 0.4s ease-in-out;
 }

@@ -56,5 +56,10 @@
     .card__image_main {
       opacity: 1;
     }
+
+    transition: 0.4s ease-in-out;
+    cursor: pointer;
+    background-color: #fff;
+    color: black;
   }
 }

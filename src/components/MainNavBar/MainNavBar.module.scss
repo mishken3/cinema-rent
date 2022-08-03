@@ -43,11 +43,19 @@
     & a {
       color: inherit;
       text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
     }
   }
 
   &__icons {
     display: flex;
     gap: 40px;
+
+    & img:hover {
+      cursor: pointer;
+    }
   }
 }

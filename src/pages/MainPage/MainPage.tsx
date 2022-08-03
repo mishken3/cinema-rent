@@ -7,7 +7,7 @@ import styles from './MainPage.module.scss';
 
 export const MainPage = () => {
   return (
-    <div className={styles.mainpage}>
+    <div className={styles.mainpage} id="mainpage">
       <header className={styles.header}>
         <MainNavBar />
       </header>
